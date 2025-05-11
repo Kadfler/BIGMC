@@ -1,0 +1,105 @@
+.feedback {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback_tittle {
+    font-weight: 400;
+font-size: 20px;
+letter-spacing: 0.1em;
+text-align: center;
+color: #fff;
+margin:15px;
+}
+
+.feedback_form {
+    background-color: var(--blue);
+    width:941px;
+     height:850px;
+     border-radius: 15px;
+     padding: 30px 41px;
+     margin-bottom: 20px;
+
+}
+
+.feedback_forms {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback_inner {
+    background-color: var(--light-blue);
+    border-radius: 15px;
+    padding:20px;
+
+}
+
+.form_input {
+    background-color: var(--blue);
+    border-radius: 15px;
+    padding:18px;
+    width:793px;
+    margin-bottom: 13px;
+    color:#fff;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 24px;
+}
+
+.form_textarea {
+    background-color: var(--blue);
+    border-radius: 15px;
+    padding:18px;
+    resize: none;
+    width:793px;
+    height: 452px;
+    margin-bottom: 13px;
+    color:#fff;
+}
+
+.form_input:hover {
+    background-color: rgb(57, 41, 129);
+    transition: 0.4s;
+}
+
+::placeholder:hover {
+        color: rgba(255, 255, 255, 0.511);
+        transition: 0.4s;
+}
+
+::placeholder:focus {
+    color: rgba(255, 255, 255, 0.511);
+    transition: 0.4s;
+}
+
+
+.form_input:focus {
+    background-color: #2b2f7b;
+    transition: 0.4s;
+}
+
+
+.form_textarea:hover {
+    background-color: rgb(57, 41, 129);
+    transition: 0.4s;
+}
+
+
+.form_textarea:focus {
+    background-color: #2b2f7b;
+}
+
+.push {
+    margin-left: 30%;
+    border: 3px solid var(--bright-purple);
+border-radius: 15px;
+padding: 10px;
+width: 310px;
+height: 43px;
+font-weight: 400;
+font-size: 15px;
+text-align: center;
+color: #fff;
+}

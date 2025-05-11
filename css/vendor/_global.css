@@ -1,0 +1,52 @@
+.body {
+    font-family: var(--press2p);
+    font-size: 30px;
+    font-weight: 400;
+    background-color: var(--dark-blue);
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .4s, visibility .4s;
+}
+
+body.active {
+    overflow-y: hidden;
+}
+
+body.active::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.container {
+    max-width: 1389px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-2 {
+    max-width: 1436px;
+    width:100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.indent {
+    margin-top:30px;
+}
+
+.indent-shop {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

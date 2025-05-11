@@ -1,0 +1,39 @@
+.mods_tittle {
+    font-weight: 400;
+font-size: 24px;
+text-align: center;
+color: #fff;
+margin: 25px;
+}
+
+.mods_lists {
+    display: flex;
+    gap:40px;
+}
+
+.mod {
+    background-color: var(--blue);
+    border-radius: 15px;
+    max-width: 808px;
+    width:100%;
+    height: 150px;
+    padding:11px 20px;
+    margin-bottom: 24px;
+}
+
+.mod_name {
+    font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #fff;
+text-align: left;
+margin-bottom: 5px;
+}
+
+.mod_disc {
+    font-weight: 400;
+font-size: 15px;
+line-height: 128%;
+text-align: justify;
+color: #fff;
+}
