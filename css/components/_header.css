@@ -11,7 +11,6 @@
     justify-content: space-between;
     align-items: start;
     padding: 20px 40px;
-    height: 410px;
  object-fit:cover;
  background-position: 50% 50%;
 }
@@ -182,7 +181,6 @@ font-size: 18px;
 
 @media(max-width:600px) {
 .header__banner {
-    height: 100%;
     padding: 5px;
     background-image: url(../../images/mob_banner.webp);
     justify-content: left;
@@ -213,7 +211,6 @@ font-size: 16px;
 
 @media(max-width:515px) {
 .header__banner {
-    height: 100%;
     padding: 5px;
     background-image: url(../../images/mob_banner.webp);
     justify-content: left;
