@@ -140,8 +140,33 @@ transition: 0.4s;
     }
 }
 
-@media(max-width:1280px) {
+@media(max-width:1290px) {
     .header__nav {
     display: none;
+    }
+
+    .header__banner {
+        height: 210px;
+    }
+
+    .banner__title {
+font-size: 45px;
+-webkit-text-stroke: 3px var(--dark-purple);
+    }
+
+    .banner__subtitle {
+font-size: 18px;
+    }
+
+    .banner__subtext {
+        font-size: 14px;
+    }
+
+    .logo {
+        height: 150px;
+    }
+
+    .banner__text {
+        width: 300px;
     }
 }
