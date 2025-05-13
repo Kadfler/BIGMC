@@ -3,7 +3,6 @@ new Swiper('.swiper-container')
 const swiper = new Swiper('.swiper', {
     breakpoints: {
         800: {
-            loop: true,
             direction: "vertical",
             spaceBetween: 25,
 

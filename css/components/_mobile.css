@@ -156,7 +156,7 @@ padding:10px 20px;
 .mobile-btn {
 padding:10px 20px;
 top: 5px;
-right:5px;
+left:auto;
 }
 
 }
