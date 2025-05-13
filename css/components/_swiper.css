@@ -190,8 +190,9 @@ max-width:520px;
 }
 
 .swiper_img {
-    height: 190px;
-    
+    height: 225px;
+    position: absolute;
+bottom:0;
 }
 
 .swiper .swiper-pagination-bullet {
@@ -207,6 +208,9 @@ max-width:380px;
 .swiper_title {
     font-size: 21px;
     max-width: 300px;
+     position: absolute;
+bottom:145px;
+z-index: 2;
 }
 .swiper_card {
     padding: 5px;
@@ -221,8 +225,66 @@ max-width:520px;
 .slide_inner {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-between;
+    
     padding-bottom: 10px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content:flex-end;
+}
+
+}
+
+@media (max-width:450px){
+    
+.swiper {
+    width: 327px;
+    height: 425px;
+    margin-top: 30px;
+}
+
+.swiper_img {
+    height: 190px;
+position: absolute;
+bottom:0;
+}
+
+.swiper .swiper-pagination-bullet {
+    width: 60px;
+    height: 7px;
+}
+
+.swiper_subtitle {
+font-size: 14px;
+max-width:380px;
+}
+
+.swiper_title {
+    font-size: 18px;
+    max-width: 300px;
+   bottom:110px;
+}
+.swiper_card {
+    padding: 5px;
+    gap:15px
+}
+
+.swiper_text {
+font-size: 8px;
+max-width:520px;
+}
+
+.slide_inner {
+    display: flex;
+    flex-direction: column-reverse;
+    
+    padding-bottom: 10px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content:flex-end;
 }
 
 }

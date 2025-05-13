@@ -31,7 +31,8 @@ const swiper = new Swiper('.swiper', {
             mousewheel: {
                 invert: false,
             }
-        }
+        },
+        
     }
     });
 

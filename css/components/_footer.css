@@ -95,10 +95,15 @@ line-height: 129%;cursor: pointer;
     }
 }
 
-@media (max-width: 823px) {
+@media (max-width: 830px) {
 
     .footer_server { 
     margin-left: 0;
+    }
+
+ .footer_text {
+        font-size: 12px;
+        max-width: 230px;
     }
 
 }
@@ -106,15 +111,17 @@ line-height: 129%;cursor: pointer;
 
 @media (max-width: 800px) {
 
-    .footer_text {
-        font-size: 13px;
-        max-width: 230px;
-    }
-
+   
 }
 
 @media (max-width: 576px) {
 .footer_server {
     max-width:300px;
 }
+}
+
+@media (max-width: 465px) {
+.footer_text {
+        font-size: 10px;
+    }
 }

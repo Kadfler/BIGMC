@@ -143,6 +143,24 @@ border-radius: 15px;
 
 }
 
+@media (max-width:800px) {
+
+.mobile-btn {
+padding:10px 20px;
+}
+
+}
+
+@media (max-width:600px) {
+
+.mobile-btn {
+padding:10px 20px;
+top: 5px;
+right:5px;
+}
+
+}
+
 @media (max-width:572px) {
 
 .mobile__link {
@@ -156,3 +174,4 @@ border-radius: 15px;
 }
 
 }
+
