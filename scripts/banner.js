@@ -1,7 +1,7 @@
 const imgLinks = [
-    '../images/anban2.jpg',
-    '../images/anban3.jpg',
-    '../images/anban4.jpg'
+    '../images/anban2.webp',
+    '../images/anban3.webp',
+    '../images/anban4.webp'
 ];
 const delay = 7000;
 let currentIndex = 0;

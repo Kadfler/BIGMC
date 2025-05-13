@@ -31,7 +31,7 @@ z-index: 9;
 
 .mobile_nav.active {
     transform: translateX(0);
-    display: f;
+    display: flex;
     visibility: visible;
 }
 

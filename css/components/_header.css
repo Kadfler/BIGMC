@@ -6,7 +6,7 @@
 
 .header__banner {
     display: flex;
-    background-image: url(../../images/header_bg.jpg);
+    background-image: url(../../images/header_bg.webp);
     background-repeat: no-repeat;
     justify-content: space-between;
     align-items: start;
