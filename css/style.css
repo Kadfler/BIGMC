@@ -3,6 +3,7 @@
 @import "../css/vendor/_fonts.css";
 @import "../css/vendor/_global.css";
 @import "../css/components/_header.css";
+@import "../css/components/_mobile.css";
 @import "../css/components/_footer.css";
 @import "home/__home.css";
 @import "../css/components/_swiper.css";

@@ -1,0 +1,146 @@
+.mobile_nav {
+    z-index: 9;
+    background-color: var(--light-blue);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    gap:20px;
+    display: flex;
+    transform: translateX(100%);
+    transition: transform .6s;
+    align-items: start;
+    flex-direction: column;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-inner {
+    display: flex;
+}
+
+.mobile-links {
+    flex-direction: column;
+list-style: none;
+gap:30px;
+display: flex;
+z-index: 9;
+}
+
+.mobile_nav.active {
+    transform: translateX(0);
+}
+
+.mobile-btn {
+cursor: pointer;
+border: 5px solid var(--bright-purple);
+border-radius: 15px;
+padding: 10px;
+padding:15px 25px;
+max-width: max-content;
+top:130px;
+right: 40px;
+margin: 15px;
+z-index: 10;
+position: fixed;
+}
+
+.mobile-btn:hover {
+    border: 3px solid var(--bright-purple);
+    opacity: 0.7;
+}
+
+.mobile-btn.active {
+    border: 3px solid red;
+}
+
+.mobile-btn span {
+    display: block;
+    height: 3px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 9px 0;
+    border-radius: 1em;
+    transition: .5s ease-out;
+    position: relative;
+    top: 0;
+}
+
+.mobile-btn--close span:nth-of-type(2) {
+    width: 0%;
+    opacity: 0;
+}
+
+.mobile-btn--close span:nth-of-type(1) {
+    transform: rotate(45deg);
+    top: 22px;
+}
+
+.mobile-btn--close span:nth-of-type(3) {
+    transform: rotate(-45deg);
+    top: -25px;
+}
+
+.mobile__link-active {
+    background-color: var(--bright-purple);
+    opacity: 0.8;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+    border: 3px solid var(--bright-purple);
+}
+
+.mobile__link:hover {
+    opacity: 0.9;
+    background-color: blueviolet;
+}
+
+.mobile__link {
+    padding: 30px 50px;
+font-size: 30px;
+color: white;
+opacity: 0.5;
+border: 4px solid var(--bright-purple);
+border-radius: 15px;
+}
+
+@media (max-width:1280px) {
+.mobile_nav {
+    display: flex;
+}
+
+}
+
+@media (min-width:1280px) {
+.mobile_nav {
+    display: none;
+    visibility: hidden;
+}
+.mobile-btn {
+    display: none;
+    visibility: hidden;
+}
+}
+
+@media (max-width:840px) {
+
+.mobile__link {
+    padding: 20px 40px;
+    font-size: 24px;
+}
+
+}
+
+@media (max-width:572px) {
+
+.mobile__link {
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.mobile__link-active {
+    padding: 20px 25px;
+    font-size: 21px;
+}
+
+}
