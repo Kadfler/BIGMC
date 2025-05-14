@@ -1,23 +1,7 @@
 new Swiper('.swiper-container')
 
 const swiper = new Swiper('.swiper', {
-    breakpoints: {
-        800: {
-            direction: "vertical",
-            spaceBetween: 25,
-
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-                clickable: true,
-            },
-
-            mousewheel: {
-                invert: false,
-            }
-        },
-        1920: {
-            loop: true,
+    loop: true,
             direction: "horizontal",
             spaceBetween: 25,
 
@@ -29,9 +13,25 @@ const swiper = new Swiper('.swiper', {
 
             mousewheel: {
                 invert: false,
+            },
+        
+        
+    breakpoints: {
+        800: {
+            direction: "vertical",
+            spaceBetween: 25,
+            loop: true,
+
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true,
+            },
+
+            mousewheel: {
+                invert: false,
             }
         },
-        
-    }
-    });
+            
+   } });
 
