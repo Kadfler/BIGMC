@@ -65,6 +65,10 @@ body.active::before {
 @media (max-width:720px) {
     .indent {
     margin-top:15px;
+    }
+    .container {
+    margin: 0 0;
+    padding: 0 0;
 }
 }
 
@@ -72,4 +76,5 @@ body.active::before {
     .indent {
     margin-top:10px;
 }
+
 }
