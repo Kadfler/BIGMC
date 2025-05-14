@@ -50,6 +50,9 @@ align-items: center;
 gap:5px;
 }
 
+.footer_mini {
+    cursor: pointer;
+}
 
 .footer_logo {
     opacity: 0.4;

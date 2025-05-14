@@ -4,6 +4,7 @@
     font-weight: 400;
     background-color: var(--dark-blue);
     position: relative;
+    overflow-x: hidden;
 }
 
 body::before {
