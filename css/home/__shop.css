@@ -130,10 +130,6 @@ margin: 20px 0;
     height: 366px;
 }
 
-.modal_shop_texts {}
-
-.form_shop {}
-
 .modal_shop_text {
     font-weight: 400;
     font-size: 24px;
@@ -178,3 +174,101 @@ top:0;
 right: 0;
 transform: translateX(15px) translateY(-15px);
 } 
+
+@media (max-width:1360px) {
+
+    .shop_item_tittle {
+    font-size: 20px;
+    -webkit-text-stroke: 1px var(--black);
+    }
+
+    .shop_cost {
+        font-size: 20px;
+    -webkit-text-stroke: 1px var(--black);
+    }
+
+    .donate {
+        gap: 40px;
+    }
+
+    .non_donate {
+    gap: 40px;
+    }
+    
+    .shop_img {
+        height: 200px;
+    }
+}
+
+@media (max-width:705px) {
+    .shop_img {
+        height: 180px;
+    }
+
+    .shop_cost {
+         margin-top: 160px;
+    }
+}
+
+@media (max-width:568px) {
+    .shop_img {
+        height: 170px;
+    }
+
+    .shop_cost {
+         margin-top: 150px;
+    }
+}
+
+@media (max-width:527px) {
+    .shop_img {
+        height: 140px;
+    }
+
+.shop_item_tittle {
+    font-size: 16px;
+    }
+
+     .shop_cost {
+         margin-top: 120px;
+    }
+}
+
+@media (max-width:450px) {
+    .shop_img {
+        height: 120px;
+    }
+    .shop_cost {
+         margin-top: 100px;
+    }
+
+    .shop_item_tittle {
+    font-size: 12px;
+    -webkit-text-stroke: 0.5px var(--black);
+    }
+
+}
+
+@media (max-width:381px) {
+       .donate {
+        gap: 15px;
+    }
+
+    .non_donate {
+    gap: 15px;
+    }
+    .shop_img {
+        height: 110px;
+    }
+
+      .shop_cost {
+         margin-top: 90px;
+         font-size: 16px;
+    }
+
+    .shop_item_tittle {
+    font-size: 12px;
+    -webkit-text-stroke: 0.5px var(--black);
+    }
+
+}
