@@ -145,7 +145,8 @@ transition: 0.4s;
     }
 
     .header__banner {
-        height: 100%;
+        width:auto;
+    max-width:100%;
     }
 
     .banner__title {
@@ -241,7 +242,7 @@ width: 200px;
 
 @media(max-width:460px) {
 .header__banner {
-    gap:10px;
+    gap:10px; }
 }
 
     .banner__title {
