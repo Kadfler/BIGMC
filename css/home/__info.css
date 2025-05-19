@@ -95,6 +95,7 @@ margin-top: 15px;
 
 .info_video {
     margin-bottom: 10px;
+    object-fit: cover;
 }
 
 .infos {
@@ -264,7 +265,7 @@ margin-top: 15px;
 }
 
 .info_vid {
-    height:484px;
+    height:284px;
      width:600px
 }
 
@@ -322,7 +323,7 @@ margin-top: 15px;
 }
 
 .info_vid {
-    height:350px;
+    height:250px;
      width:400px
 }
 
@@ -388,7 +389,7 @@ margin-top: 15px;
 }
 
 .info_vid {
-    height:350px;
+    height:200px;
      width:400px
 }
 
@@ -457,7 +458,7 @@ margin-top: 15px;
 }
 
 .info_vid {
-    height:290px;
+    height:200px;
      width:350px
 }
 
