@@ -6,17 +6,30 @@ color: #fff;
 margin: 25px;
 }
 
+.mods_tittles {
+    font-weight: 400;
+font-size: 24px;
+text-align: center;
+color: #fff;
+margin: 25px;
+}
+
 .mods_lists {
     display: flex;
-    gap:40px;
+    gap:20px;
+}
+
+.techn_mods {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
 }
 
 .mod {
     background-color: var(--blue);
     border-radius: 15px;
-    max-width: 808px;
-    width:100%;
-    height: 150px;
+    width:auto;
+    height: auto;
     padding:11px 20px;
     margin-bottom: 24px;
 }
@@ -31,9 +44,82 @@ margin-bottom: 5px;
 }
 
 .mod_disc {
-    font-weight: 400;
+font-weight: 400;
 font-size: 15px;
 line-height: 128%;
 text-align: justify;
 color: #fff;
+}
+
+@media (max-width:1300px) {
+    .mod {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width:920px) {
+.mod_disc {
+    font-size: 13px;
+}
+
+.mods_tittle {
+    max-width: 150px;
+}
+
+.mods_lists {
+    gap:10px
+}
+
+}
+
+@media (max-width:830px) {
+.mod_disc {
+    font-size: 13px;
+}
+
+.mods_tittle {
+    max-width: 90px;
+    font-size: 18px;
+}
+
+.mods_tittles {
+    font-size: 18px;
+}
+
+.mods_lists {
+    gap:10px
+}
+
+.mod_name {
+    font-size: 18px;
+}
+
+@media (max-width:590px) {
+
+.mods_lists {
+flex-direction: column;
+}
+
+.mod_disc {
+    font-size: 10px;
+}
+
+.mods_tittle {
+    max-width: 90px;
+    font-size: 13px;
+}
+
+.mods_tittles {
+    font-size: 13px;
+}
+
+.mods_lists {
+    gap:10px
+}
+
+.mod_name {
+    font-size: 13px;
+}
+}
 }
