@@ -175,6 +175,26 @@ right: 0;
 transform: translateX(15px) translateY(-15px);
 } 
 
+@media (max-width:1492px) { 
+
+.money {
+    height: 124px;
+    width: 245px;
+transform: translateX(-100px) translateY(-50px);
+}
+
+}
+
+@media (max-width:1402px) { 
+
+.money {
+display:none;
+visibility: hidden;
+}
+
+}
+
+
 @media (max-width:1360px) {
 
     .shop_item_tittle {
@@ -198,6 +218,132 @@ transform: translateX(15px) translateY(-15px);
     .shop_img {
         height: 200px;
     }
+
+    .modal_donate {
+    padding: 10px;
+    max-width: 1200px;
+    width: 100%;
+    gap: 30px;
+
+}
+
+.modal_shop_img {
+    width: 567px;
+    height: 366px;
+}
+
+
+}
+
+
+@media (max-width:1270px) {
+
+    .modal_donate {
+    padding: 15px;
+    max-width: 1100px;
+    gap: 25px;
+
+}
+
+.shop_input {
+    width: 580px;
+    height: 59px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.modal_shop_img {
+    width: 567px;
+    height: 366px;
+}
+
+}
+
+
+
+@media (max-width:1165px) {
+
+    .modal_donate {
+    padding: 15px;
+    max-width: 950px;
+    gap: 30px;
+
+}
+
+.shop_input {
+    width: 425px;
+    height: 100px;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.modal_shop_img {
+    width: 567px;
+    height: 366px;
+}
+
+}
+
+@media (max-width:1030px) {
+
+    
+    .modal_donate {
+    padding: 15px;
+    max-width: 650px;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_shop {
+    display: grid;
+}
+
+.shop_input {
+    width: 615px;
+    height: 80px;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.modal_shop_img {
+    width: 687px;
+    height: 386px;
+}
+
+}
+
+@media (max-width:780px) {
+
+    
+    .modal_donate {
+    padding: 15px;
+    max-width: 600px;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 10;
+}
+
+.form_shop {
+    display: grid;
+}
+
+.shop_input {
+    width: 565px;
+    height: 70px;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.modal_shop_img {
+    width: 687px;
+    height: 386px;
+}
+
 }
 
 @media (max-width:705px) {
@@ -208,6 +354,99 @@ transform: translateX(15px) translateY(-15px);
     .shop_cost {
          margin-top: 160px;
     }
+}
+
+@media (max-width:780px) {
+
+    .push {
+transform: translateX(-40px);
+    }
+    
+    .modal_donate {
+    padding: 15px;
+    max-width: 500px;
+    gap: 20px;
+    z-index: 10;
+}
+
+.form_shop {
+    display: grid;
+}
+
+.shop_input {
+    width: 475px;
+    height: 50px;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.modal_shop_img {
+    width: 687px;
+    height: 386px;
+}
+
+}
+
+@media (max-width:570px) {
+
+        .push {
+transform: translateX(-70px);
+    }
+    
+    .modal_donate {
+    padding: 15px;
+    max-width: 400px;
+    gap: 20px;
+    z-index: 10;
+}
+
+.shop_input {
+    width: 355px;
+    height: 50px;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.modal_shop_img {
+    width: 667px;
+    height: 366px;
+}
+
+}
+
+@media (max-width:500px) {
+
+            .push {
+transform: translateX(-40px);
+max-width: 200px;
+    }
+
+    .modal_donate {
+    padding: 10px;
+    max-width: 300px;
+    gap: 20px;
+    z-index: 10;
+}
+
+.shop_input {
+    width: 275px;
+    height: 50px;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.shop_input_card {
+    width: 120px;
+}
+
+.modal_shop_img {
+    width: 637px;
+    height: 250px;
+}
+
 }
 
 @media (max-width:568px) {
