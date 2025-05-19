@@ -2,21 +2,19 @@
     margin: 17px 0px;
 }
 
-.rules {
-
-}
+.rules {}
 
 .rules_info {
     display: flex;
     flex-wrap: wrap;
-    gap:12px;
+    gap: 12px;
     justify-content: center;
-    
+
 }
 
 .rule {
     display: block;
-    max-width:680px;
+    max-width: 680px;
     padding: 20px;
     background-color: var(--light-blue);
     border-radius: 15px;
@@ -27,32 +25,32 @@
 
 .rule_dark {
     display: block;
-    max-width:680px;
+    max-width: 680px;
     padding: 20px;
     background-color: var(--blue);
     border-radius: 15px;
     height: 165px;
     align-items: center;
-    
+
 }
 
 .rule_tittle {
     font-weight: 400;
-font-size: 20px;
-color: #fff;
+    font-size: 20px;
+    color: #fff;
 }
 
 .rule_text {
     font-weight: 400;
-font-size: 14px;
-line-height: 120%;
-color: #fff;
-max-width: 637px;
+    font-size: 14px;
+    line-height: 120%;
+    color: #fff;
+    max-width: 637px;
 }
 
 .rule_hi {
     display: flex;
-    max-width:966px;
+    max-width: 966px;
     padding: 20px;
     background-color: var(--blue);
     border-radius: 15px;
@@ -72,9 +70,79 @@ max-width: 637px;
     max-width: 100%;
     animation: fade 7s linear infinite;
     animation-delay: 3.5s;
-  }
-  @keyframes fade {
-    0% { opacity: 1 }
-    50% { opacity: 0 }
-    100% { opacity: 1 }
-  }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@media (max-width:1110px) {
+    .rule_hi {
+        padding: 0px;
+    }
+
+    .rule_img {
+        display: none;
+        visibility: hidden;
+    }
+
+    .rules_banner {
+        height: auto;
+    }
+
+    .rule {
+        max-width: 680px;
+        padding: 20px;
+        height: auto;
+        text-align: left;
+    }
+
+    .rule_text {
+        text-align: center;
+    }
+
+    .rule_tittle {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .rule_dark {
+        max-width: 680px;
+        padding: 20px;
+        height: auto;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:644px) {
+
+    .rule_hi {
+        height: auto;
+        padding: 10px;
+        display: flex;
+    }
+
+    .rule_tittle {
+        font-size: 16px;
+max-width: 300px;
+        max-height: auto;
+    }
+}
+
+@media (max-width:550px) {
+
+    .rule_text {
+        font-size: 10px;
+    }
+}
