@@ -284,4 +284,8 @@ margin: 5px;
     width:auto;
     height: 350px;
 }
+
+::placeholder {
+    font-size: 16px;
+}
 } 
