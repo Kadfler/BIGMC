@@ -113,6 +113,9 @@ line-height: 129%;cursor: pointer;
 
 @media (max-width: 800px) {
 
+    .footer_up {
+        gap: 30px;
+    }
    
 }
 
@@ -120,6 +123,11 @@ line-height: 129%;cursor: pointer;
 .footer_server {
     max-width:300px;
 }
+
+   .footer_up {
+        gap: 20px;
+    }
+   
 }
 
 @media (max-width: 465px) {
