@@ -103,3 +103,185 @@ font-size: 15px;
 text-align: center;
 color: #fff;
 }
+
+@media (max-width:1000px) {
+
+.feedback_form {
+    display: flex;
+    width:auto;
+    margin: 15px 20px;
+}
+
+.feedback_inner {
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
+
+.form_input {
+    width:auto;
+}
+
+.form_textarea {
+    width:auto;
+}
+} 
+
+@media (max-width:850px) {
+
+.feedback_form {
+    display: flex;
+    width:750px;
+    margin: 15px 20px;
+}
+
+.feedback_inner {
+justify-content: center;
+display: flex;
+flex-direction: column;
+width:670px;
+}
+
+.form_input {
+    width:auto;
+}
+
+.form_textarea {
+    width:auto;
+}
+} 
+
+@media (max-width:800px) {
+
+.feedback_form {
+    display: flex;
+    width:700px;
+    margin: 15px 20px;
+}
+
+.feedback_inner {
+justify-content: center;
+display: flex;
+flex-direction: column;
+width:620px;
+}
+
+.form_input {
+    width:auto;
+}
+
+.form_textarea {
+    width:auto;
+}
+
+
+} 
+
+@media (max-width:740px) {
+
+.feedback_form {
+    display: flex;
+    width:650px;
+    margin: 15px 20px;
+}
+
+.feedback_inner {
+justify-content: center;
+display: flex;
+flex-direction: column;
+width:570px;
+}
+
+.form_input {
+    width:auto;
+}
+
+.form_textarea {
+    width:auto;
+}
+
+
+} 
+
+@media (max-width:690px) {
+
+.feedback_form {
+    display: flex;
+    width:600px;
+    margin: 15px 20px;
+    height: 560px;
+}
+
+.feedback_inner {
+justify-content: center;
+display: flex;
+flex-direction: column;
+width:520px;
+height: 510px;
+}
+
+.form_input {
+    height:46px;
+}
+
+.form_textarea {
+    width:auto;
+    height: 400px;
+}
+} 
+
+@media (max-width:640px) {
+
+.feedback_form {
+    display: flex;
+    width:500px;
+    margin: 15px 20px;
+    height: 560px;
+}
+
+.feedback_inner {
+justify-content: center;
+display: flex;
+flex-direction: column;
+width:420px;
+height: 510px;
+}
+
+.form_input {
+    height:36px;
+}
+
+.form_textarea {
+    width:auto;
+    height: 350px;
+}
+} 
+
+@media (max-width:540px) {
+
+.feedback_form {
+    display: flex;
+    width:340px;
+    margin: 15px 20px;
+    height: 560px;
+    padding:5px
+}
+
+.feedback_inner {
+justify-content: center;
+display: flex;
+flex-direction: column;
+width:320px;
+height: 510px;
+margin: 5px;
+}
+
+.form_input {
+    height:36px;
+}
+
+.form_textarea {
+    width:auto;
+    height: 350px;
+}
+} 
